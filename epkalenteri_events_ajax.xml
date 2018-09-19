@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="ajax" method="upgrade">
+	<name>EP Kalenteri Ajax</name>
+	<version>1.0</version>
+	<creationDate>2018</creationDate>
+	<author>Ville Koivukangas</author>
+	<authorEmail>ville.koivukangas@metatavu.fi</authorEmail>
+	<authorUrl>http://www.metatavu.fi</authorUrl>
+	<license></license>
+	<copyright></copyright>
+	<description>Joomla plugin for getting events</description>
+
+	<files>
+		<filename plugin="epkalenteri_events_ajax">epkalenteri_events_ajax.php</filename>
+    <filename>linkedevents-controller.php</filename>
+    <folder>vendor</folder>
+    <folder>linkedevents-client-php</folder>
+    <filename>templates/bootstrap.php</filename>
+    <filename>templates/event.php</filename>
+	</files>
+</extension>
